@@ -1,0 +1,157 @@
+body {
+    background-image: url(../StaticLayout/pics/kastbackground.jpeg);
+    background-size: cover;
+    min-height: 100%;
+    min-width: 1024px;
+    padding-bottom: 0;
+    
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    height: 45px;
+    width: max-content;
+    margin: 20px;
+}
+
+#links {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 490px;
+}
+
+.nav-item{
+    display: flex;
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-weight: 550;
+    margin: 10px;
+    justify-content: flex-end;
+}
+
+#button{
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    display: inline-block;
+    color: white;
+    border-width: 0.5px;
+    border-color: white;
+    height: 22px;
+    margin: 5px;
+    text-align: center;
+}
+
+
+.laptop{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 50%;
+}
+
+#watch {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 54;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    margin-left: 40px
+}
+
+#watchwhatever {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-left: 315px;
+    margin-right: 200px;
+    text-align: center;
+    font-weight: 25px;
+    font-size: 22px;
+    max-width: 560px;
+}
+
+
+#buttontwo {
+    background-color: rgb(254, 144, 0);
+    font-family: Roboto, sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-width: 0px;
+    border-color: white;
+    height: 44px;
+    width: 225px;
+    margin: 5px;
+    text-align: center;
+    margin-left: 42%;
+}
+
+.page2 {
+    background-color: white;
+    display: block;
+    position:relative;
+    color: black;
+    height: 100%;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    margin-bottom: 0;
+}
+
+#featured {
+    text-align: center;
+    color: #434146;
+    font-family: Roboto, sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    padding-top: 125px;
+    margin-top: 150px ;
+    margin-bottom: -100px;
+}
+
+.pubs {
+    max-width: 1500px;
+    margin: 100px;
+    margin-top: 50px;
+    margin-left: 155px;
+    justify-content: stretch;
+}
+
+#wired {
+    margin-left: 100px;
+}
+
+#nerdist {
+    margin-left: 50px;
+}
+
+#yahoo {
+    margin-left: 50px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+#evening {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+#bbc {
+    margin-left: 50px;
+}
+
+#dailymail {
+    margin-left: 50px;
+}
+
+#relevant {
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    max-width: 520;
+    font-family: Roboto, sans-serif;
+    margin-bottom: 40px;
+    padding-bottom: 100px;
+}
